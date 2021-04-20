@@ -1,7 +1,6 @@
 import fastapi
 import psycopg2
-
-from fastai import FastAPI,request,render_template,make_response,jsonify
+from fastapi import FastAPI,request,render_template,make_response,jsonify
 
 #for self computation
 from math import sin, cos, atan2, radians, sqrt
